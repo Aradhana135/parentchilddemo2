@@ -1,6 +1,7 @@
 import React from 'react'
-
-const Link = () => {
+import Cart from './Cart'
+import 
+const Link1 = (props) => {
   return (
     <>
     <a href={props.href}>{props.text}</a>
@@ -8,4 +9,4 @@ const Link = () => {
   )
 }
 
-export default Link
+export default Link1

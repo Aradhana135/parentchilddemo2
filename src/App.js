@@ -2,11 +2,11 @@ import './App.css';
 import './New.css'
 import React from 'react'
 import Cart from './Components/Cart';
-import Cartdisp from './Components/Cartdisp';
+import Cart_disp from './Components/Cart_disp';
 const App = () => {
   return (
     <>
-    <Cartdisp/>
+    <Cart_disp/>
     </>
   )
 }
